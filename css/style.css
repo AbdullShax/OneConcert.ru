@@ -206,6 +206,14 @@
     padding: 0 15px;
 }
 
+.main_kalendar {
+    max-width: 1440px;
+}
+
+.main_kalendar img {
+    width: 100%;
+}
+
 /* section_cards_start*/
 
 .top_10 {
@@ -391,6 +399,9 @@
     right: -25px;
     z-index: 1;
 }
+
+
+
 
 
 
