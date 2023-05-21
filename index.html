@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
+    <!-- <link rel="stylesheet" href="./css/bootstrap.css"> -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/aos.css">
-    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="./css/owl_corusel.css">
+    <link rel="stylesheet" href="./css/owl_corusel_defolt.css"> -->
+    <!-- <link rel="stylesheet" href="./css/aos.css"> -->
+    <!-- <link rel="stylesheet" href="./css/swiper.css"> -->
     <!-- FONTS -->
     <link rel="stylesheet" href="./fonts/Inter/stylesheet.css">
     <link rel="stylesheet" href="./fonts/Montserrat/Montserrat/stylesheet.css">
@@ -92,26 +96,27 @@
 
         <section class="cards">
            <div class="container_in">
-            <div class="top_10">
-                <img src="./icons/main_icon_storm.svg" alt="#"> <h1>ТОП 10</h1>
-            </div>
+                <div class="top_10">
+                    <img src="./icons/main_icon_storm.svg" alt="#"> <h1>ТОП 10</h1>
+                </div>
 
-            <!-- swipper -->
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide swipper_corusel">
-                    <img src="./images/card_img_1.png" alt="#">
-                                <div class="top_card_text">
-                                    <div class="top_text">
-                                        <h1>David Garret</h1>
-                                        <h4>30 Марта 2023</h4>
-                                        <p>Центральный концертный зал</p>
-                                        <button type="submit">Купить билеты</button>
-                                    </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="swipper_corusel_img">
+                            <img src="./images/card_img_1.png" alt="#">
+                            <div class="top_card_text">
+                                <div class="top_text">
+                                    <h1>David Garret</h1>
+                                    <h4>30 Марта 2023</h4>
+                                    <p>Центральный концертный зал</p>
+                                    <button type="submit">Купить билеты</button>
                                 </div>
-                  </div>
-                  <div class="swiper-slide swipper_corusel">
-                    <img src="./images/card_img_2.png" alt="#">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="swipper_corusel_img">
+                            <img src="./images/card_img_2.png" alt="#">
                             <div class="top_card_text">
                                 <div class="top_text">
                                     <h1>Stand-up</h1>
@@ -119,11 +124,12 @@
                                     <p>Центральный концертный зал</p>
                                     <button type="submit">Купить билеты</button>
                                 </div>
-                            </div>      
-                  </div>
-                  <div class="swiper-slide swipper_corusel">
-                    <img src="./images/card_img_3.png" alt="#">
-                               
+                            </div>         
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="swipper_corusel_img">
+                            <img src="./images/card_img_3.png" alt="#">
                             <div class="top_card_text">
                                 <div class="top_text">
                                 <h1>Мари Краймбрери</h1>
@@ -132,80 +138,23 @@
                                     <button type="submit">Купить билеты</button>
                                 </div>
                             </div>
-
-                  </div>
-                  <div class="swiper-slide swipper_corusel">
-                    <img src="./images/card_img_1.png" alt="#">
-                                <div class="top_card_text">
-                                    <div class="top_text">
-                                        <h1>David Garret</h1>
-                                        <h4>30 Марта 2023</h4>
-                                        <p>Центральный концертный зал</p>
-                                        <button type="submit">Купить билеты</button>
-                                    </div>
-                                </div>
-                  </div>
-                  <div class="swiper-slide swipper_corusel">
-                    <img src="./images/card_img_2.png" alt="#">
-                            <div class="top_card_text">
-                                <div class="top_text">
-                                    <h1>Stand-up</h1>
-                                    <h4>15 Апреля 2023</h4>
-                                    <p>Центральный концертный зал</p>
-                                    <button type="submit">Купить билеты</button>
-                                </div>
-                            </div>
-                  </div>
-                  <div class="swiper-slide swipper_corusel">
-                    <img src="./images/card_img_3.png" alt="#">
-
-                            <div class="top_card_text">
-                                <div class="top_text">
-                                    <h1>Мари Краймбрери</h1>
-                                    <h4>24 Апреля 2023</h4>
-                                    <p>Центральный концертный зал</p>
-                                    <button type="submit">Купить билеты</button>
-                                </div>
-                            </div>
-                  </div>
-                  <div class="swiper-slide swipper_corusel">
-                    <img src="./images/card_img_1.png" alt="#">
-
-                                <div class="top_card_text">
-                                    <div class="top_text">
-                                        <h1>David Garret</h1>
-                                        <h4>30 Марта 2023</h4>
-                                        <p>Центральный концертный зал</p>
-                                        <button type="submit">Купить билеты</button>
-                                    </div>
-                                </div>
-                  </div>
-                  <div class="swiper-slide swipper_corusel">
-                    <img src="./images/card_img_2.png" alt="#">
-                                <div class="top_card_text">
-                                    <div class="top_text">
-                                        <h1>Stand-up</h1>
-                                        <h4>15 Апреля 2023</h4>
-                                        <p>Центральный концертный зал</p>
-                                        <button type="submit">Купить билеты</button>
-                                    </div>
-                                </div>
-                  </div>
-                  <div class="swiper-slide swipper_corusel">
-                    <img src="./images/card_img_3.png" alt="#">
-                                
-                            <div class="top_card_text">
-                                <div class="top_text">
-                                    <h1>Мари Краймбрери</h1>
-                                    <h4>24 Апреля 2023</h4>
-                                    <p>Центральный концертный зал</p>
-                                    <button type="submit">Купить билеты</button>
-                                </div>
-                            </div>
-                  </div>
+                        </div>
+                    </div>
+                    <div class="item"><h4>4</h4></div>
+                    <div class="item"><h4>5</h4></div>
+                    <div class="item"><h4>6</h4></div>
+                    <div class="item"><h4>7</h4></div>
+                    <div class="item"><h4>8</h4></div>
+                    <div class="item"><h4>9</h4></div>
+                    
                 </div>
-                <!-- <div class="swiper-pagination"></div> -->
-            </div>
+
+
+
+
+
+
+           
            </div>
         </section>
     
@@ -429,8 +378,14 @@
 
 
     <script src="./js/bootstrap.js"></script>
-    <script src="./js/swiper.js"></script>
-    <script src="./js/aos.js"></script>
+    <!-- <script src="./js/swiper.js"></script>
+    <script src="./js/owl_corusel.js"></script> -->
+    <!-- <script src="./js/jquery.js"></script> -->
+    <!-- <script src="./js/aos.js"></script> -->
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>
